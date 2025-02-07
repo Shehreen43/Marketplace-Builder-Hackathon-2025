@@ -1,0 +1,17 @@
+| Test Case ID | Test Case Description | Test Steps | Expected Result | Actual Result | Status | Severity Level | Assigned To | Remarks |
+|-------------|----------------------|------------|----------------|--------------|--------|---------------|------------|---------|
+| TC001 | Validate Product Listing | Load product page and check if products are displayed | Products should be listed correctly | Products displayed as expected | Passed | Low | Frontend Dev | N/A |
+| TC002 | Filter Products by Category | Select a category filter and check results | Only products from selected category should be shown | Filtered products displayed correctly | Passed | Medium | Frontend Dev | N/A |
+| TC003 | Search Functionality | Enter a keyword and check the search results | Relevant products should be displayed | Some irrelevant products shown | Failed | High | Frontend Dev | Fix search algorithm |
+| TC004 | Add Product to Cart | Click 'Add to Cart' button for a product | Product should appear in cart | Product added to cart successfully | Passed | Low | Frontend Dev | N/A |
+| TC005 | Update Cart Quantity | Increase/decrease quantity in cart | Updated quantity should reflect correctly | Quantity updated correctly | Passed | Low | Frontend Dev | N/A |
+| TC006 | Remove Product from Cart | Click 'Remove' on a cart item | Product should be removed from cart | Item removed successfully | Passed | Low | Frontend Dev | N/A |
+| TC007 | Dynamic Routing | Click on a product to open its details page | Product details should load correctly | Product page loaded with correct details | Passed | Medium | Frontend Dev | N/A |
+| TC008 | API Response Handling | Simulate API failure and check error handling | Error message should appear | Proper error message displayed | Passed | High | Backend Dev | N/A |
+| TC009 | Fallback UI for Empty Data | Check UI when no products are available | 'No items found' message should appear | Message displayed correctly | Passed | Low | Frontend Dev | N/A |
+| TC010 | Image Optimization | Check image sizes and loading time | Images should load quickly with reduced size | Optimized images loaded correctly | Passed | Medium | Frontend Dev | N/A |
+| TC011 | Lazy Loading | Scroll down and check lazy loading | Images/assets should load only when needed | Lazy loading works as expected | Passed | Medium | Frontend Dev | N/A |
+| TC012 | Cross-Browser Testing | Check functionality on Chrome, Firefox, Safari, Edge | All browsers should display correctly | Minor UI issue on Safari | Failed | Medium | Frontend Dev | Fix Safari-specific UI issues |
+| TC013 | Security Testing - Input Validation | Enter invalid email and phone | Should not allow incorrect input | Validation errors displayed correctly | Passed | High | Frontend Dev | N/A |
+| TC014 | Secure API Communication | Check if API requests are using HTTPS | Requests should be over HTTPS | All API calls are secure | Passed | High | Backend Dev | N/A |
+| TC015 | User Acceptance Testing (UAT) | Simulate real-world usage like browsing, adding to cart, and checkout | Everything should work smoothly | Minor UI issue in checkout | Failed | Medium | Frontend Dev | Fix checkout UI glitch |
