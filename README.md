@@ -79,9 +79,16 @@ Day 6 was successfully completed with the deployment of the e-commerce website o
 ### Environment Variables Configuration
 Stored securely in `.env.local` and Vercel’s settings:
 ```env
-NEXT_PUBLIC_SANITY_PROJECT_ID=your_project_id
-NEXT_PUBLIC_SANITY_DATASET=production
-API_KEY=your_api_key
+NEXT_PUBLIC_SANITY_PROJECT_ID=""
+NEXT_PUBLIC_SANITY_DATASET=""
+NEXT_PUBLIC_BASE_URL=""
+SANITY_API_TOKEN=""
+SANITY_STUDIO_PROJECT_ID=""
+SANITY_STUDIO_DATASET=""
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=""
+CLERK_SECRET_KEY=""
+SANITY_API_READ_TOKEN=""
+STRIPE_SECRET_KEY=""
 ```
 
 ### Performance Testing
